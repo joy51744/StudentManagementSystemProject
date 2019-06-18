@@ -1,0 +1,210 @@
+﻿namespace MainForm
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// 設計工具所需的變數。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 清除任何使用中的資源。
+        /// </summary>
+        /// <param name="disposing">如果應該處置受控資源則為 true，否則為 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form 設計工具產生的程式碼
+
+        /// <summary>
+        /// 此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改
+        /// 這個方法的內容。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.buttonPicture = new System.Windows.Forms.Button();
+            this.buttonStudent = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.button14);
+            this.groupBox1.Controls.Add(this.button15);
+            this.groupBox1.Controls.Add(this.button11);
+            this.groupBox1.Controls.Add(this.button12);
+            this.groupBox1.Controls.Add(this.button5);
+            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.buttonPicture);
+            this.groupBox1.Controls.Add(this.buttonStudent);
+            this.groupBox1.Font = new System.Drawing.Font("王漢宗顏楷體繁", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox1.Location = new System.Drawing.Point(12, 76);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(901, 293);
+            this.groupBox1.TabIndex = 22;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "管理系統相關專案";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(19, 201);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(123, 52);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "客     房";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.buttonStudent_Click);
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(574, 201);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(123, 52);
+            this.button14.TabIndex = 8;
+            this.button14.Text = "餐      飲";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.buttonStudent_Click);
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(759, 201);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(123, 52);
+            this.button15.TabIndex = 9;
+            this.button15.Text = "會      員";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.buttonStudent_Click);
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(389, 201);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(123, 52);
+            this.button11.TabIndex = 7;
+            this.button11.Text = "租      賃";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.buttonStudent_Click);
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(204, 201);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(123, 52);
+            this.button12.TabIndex = 6;
+            this.button12.Text = "銀      行";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.buttonStudent_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(574, 57);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(123, 52);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "客     房";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.buttonStudent_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(389, 57);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(123, 52);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "財      務";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.buttonStudent_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(759, 57);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(123, 52);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "人 力 資 源";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.buttonStudent_Click);
+            // 
+            // buttonPicture
+            // 
+            this.buttonPicture.Location = new System.Drawing.Point(204, 57);
+            this.buttonPicture.Name = "buttonPicture";
+            this.buttonPicture.Size = new System.Drawing.Size(123, 52);
+            this.buttonPicture.TabIndex = 1;
+            this.buttonPicture.Text = "圖      片";
+            this.buttonPicture.UseVisualStyleBackColor = true;
+            this.buttonPicture.Click += new System.EventHandler(this.buttonStudent_Click);
+            // 
+            // buttonStudent
+            // 
+            this.buttonStudent.Location = new System.Drawing.Point(19, 57);
+            this.buttonStudent.Name = "buttonStudent";
+            this.buttonStudent.Size = new System.Drawing.Size(123, 52);
+            this.buttonStudent.TabIndex = 0;
+            this.buttonStudent.Text = "學      生";
+            this.buttonStudent.UseVisualStyleBackColor = true;
+            this.buttonStudent.Click += new System.EventHandler(this.buttonStudent_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button6.Location = new System.Drawing.Point(770, 10);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(123, 52);
+            this.button6.TabIndex = 23;
+            this.button6.Text = "離      開";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Moccasin;
+            this.ClientSize = new System.Drawing.Size(924, 381);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Form1";
+            this.Text = "管理系統專案主畫面";
+            this.groupBox1.ResumeLayout(false);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button buttonPicture;
+        private System.Windows.Forms.Button buttonStudent;
+        private System.Windows.Forms.Button button6;
+    }
+}
+
